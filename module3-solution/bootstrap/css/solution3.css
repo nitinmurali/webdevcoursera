@@ -1,0 +1,61 @@
+body{
+    background-color: royalblue;
+}
+header{
+    background-color: peru;
+}
+.navbar-brand {
+    padding-top: 25px;
+  }
+.navbar-brand h1{
+    text-transform: uppercase;
+    text-shadow: 1px 1px brown;
+    font-weight: bolder;
+    color: green;
+}
+#main-heading{
+  background-color:burlywood;
+  margin-bottom: 30px;
+}
+#main-heading>h2{
+    color:red;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-shadow:1px 1px green;
+}
+#mainmenu{
+    background-color: crimson;
+    margin-top:30px;
+    margin-bottom:30px;
+    height: 100%;
+}
+.row h3:hover{
+    background-color:olivedrab;
+    cursor: pointer;
+}
+.row h3{
+    font-weight: bold;
+    color:orange;
+    text-shadow: 1px 1px blue;
+}
+.row{
+  padding-left: 5px; 
+  margin-top: 20px; 
+  margin-bottom: 20px;
+}
+.row p{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color:mintcream;
+    text-shadow: 1px 1px blueviolet;
+    font-family: sans-serif;
+}
+footer .container-fluid{
+    background-color: black;
+    color: white;
+}
+@media only screen and (max-width: 575px) {
+   #mainmenu {
+        width: 90%;
+    }
+}
